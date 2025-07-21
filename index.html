@@ -12,7 +12,19 @@
   <div class="container">
     <h1>🧊 Fillr</h1>
     <p>Your Icebreaker &amp; Conversation Starter</p>
-    <!-- Icebreaker buttons -->
+    <!-- Persona toggle dropdown -->
+    <label for="personaDropdown">Persona:</label>
+    <select id="personaDropdown">
+      <option value="friendlyCoworker">Friendly coworker</option>
+      <option value="sassyIntern">Sassy intern</option>
+      <option value="professorBot">Professor bot</option>
+    </select>
+    <!-- Icebreaker context dropdown -->
+    <select id="contextDropdown">
+      <option value="meeting">Meeting</option>
+      <option value="classroom">Classroom</option>
+      <option value="gamenight">Game Night</option>
+    </select>
     <div id="icebreaker-buttons">
       <button type="button" id="iceBtn">
         <i class="fa-regular fa-comments"></i> Icebreaker
